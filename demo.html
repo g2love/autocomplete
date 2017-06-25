@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>自动完成加email后缀</title>
+	<script type="text/javascript" src="../jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="./autoEmail.js"></script>
+	<style type="text/css">
+		div{
+			width: 400px;
+			margin:100px auto;
+		}
+		input{
+			width: 400px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<input type="text" id="testInput"/>
+	</div>
+	<script type="text/javascript">
+		$('#testInput').autoAddEmail();
+			
+	</script>
+</body>
+</html>
